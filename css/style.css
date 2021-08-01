@@ -306,7 +306,11 @@ header.sticky {
   color: #060606;
 }
 .sticky ul#menu {
-  color: #fdfffc;
+  color: #000;
+}
+
+.dark#myBody .sticky ul#menu{
+  color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
@@ -767,3 +771,229 @@ a.btn__general:hover {
 .dark .welcome__left h2{
   color: #0b0d0e;
 }
+/* Hanh_Member */
+
+
+  /* Dark Theme*/
+
+  .dark#myBody{
+    background-color:#27282b;
+  }
+  /* .dark #switchButton {
+    background-color: black;
+  } */
+.dark #switchButton .flaticon-sun {
+    display: block;   
+  }
+  
+.dark #switchButton .flaticon-moon {
+    display: none;
+  }
+/* Card-Organic */
+.dark#myBody .card{
+    background: #222222;
+    border: 20px;
+}
+.dark#myBody .organic-bot__item .card-title{
+    color: #fff;
+}
+.dark#myBody .farmlist-info h4{
+    color: #fff;
+}
+.dark#myBody .organic-bot__item .card-title:hover{
+    color: var(--secondary-color);
+    transition: all 0.5s;
+}
+/* Farm-list */
+.dark#myBody  .farmlist-content:hover h4{
+    color: var(--secondary-color);
+    transition: all 0.5s;
+}
+.farmlist-content:hover .dark#myBody .farmlist-info h4{
+    color: var(--secondary-color);
+    transition: all 0.5s;
+}
+/* gallery */
+.dark#myBody .gallery__effect h3{
+    color: #fff;
+}
+.dark#myBody .gallery__effect p{
+    color: #b7b7b7;
+}
+
+/* Quality */
+.dark#myBody .quality-left h3, 
+.dark#myBody .quality-info h4{
+  color: #fff;
+}
+.dark#myBody .quality-left p{
+  color: #b7b7b7;
+
+}
+
+/* ORGANIC */
+.organic{
+    background-color: var(--secondary-color);
+}
+/* ORGANIC-TOP */
+.organic-top__item{
+    align-items: center;
+}
+.organic-top h5, 
+.organic-top h3, 
+.organic-top p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.organic-top h5{
+    font-size: 22px;
+
+}
+.organic-top h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.organic__title{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 0;
+    opacity: 0.14;
+    font-size: 12vw;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}
+/* ORGANIC-BOT */
+.organic-bot__item img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.organic-bot .card{
+    border: none;
+    border-radius: 20px
+    
+}
+.organic-bot .card-body{
+    padding: 30px 20px;
+}
+.organic-bot__item .card-title{
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 15px 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.organic-bot__item .card-title:hover{
+    color: var(--secondary-color);
+}
+.organic-bot__item .card-text{
+    font-size: 17px;
+}
+.organic-btn{
+    color: var(--secondary-color);
+    display: inline-block;
+    background: rgb(0 159 77 / 16%);
+    padding: 5px 20px;
+    border-radius: var(--border-radius-full);
+    font-weight: 600;
+}
+/* QUALITY */
+/* QUALITY-LEFT */
+.quality-left h5{
+    color: var(--primary-color);
+    font-size: 22px;
+}
+.quality-left h3{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.quality-left p{
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--font-color);
+}
+.quality-info span.fa{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.quality-info h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.quality-info p{
+    font-size: 17px;
+    line-height: 27px;
+}
+/* QUALITY-RIGHT */
+.quality-right img{
+    border-radius: var(--border-radius);
+    max-width: 100%;
+    height: auto;
+}
+.qualitybox-info{
+    background-color: var(--primary-color);
+    color: #fff;
+    position: absolute;
+    left: -85px;
+    bottom: 38px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    min-width: 300px;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+}
+.qualitybox-info h6{
+    font-size: 70px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+.qualitybox-info p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+/* FARMLIST */
+.farmlist-item{
+    margin-top: 30px;
+}
+.farmlist-content img{
+    width: 54px;
+    height: 54px;
+}
+.farmlist-info h4{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.farmlist-info p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.farmlist-content{
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    border: 1px solid transparent;
+}   
+.farmlist-content:hover h4{
+    color: var(--secondary-color);
+    transition: all 0.5s;
+}
+.farmlist-content:hover{
+    border: 1px solid rgb(238, 238, 238, 0.8);
+    
+}
+  
