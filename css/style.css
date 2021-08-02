@@ -674,7 +674,7 @@ a.btn__general:hover {
   }
 }
 /* backTo Top  */
-#movetop{
+#top{
   position: fixed;
   bottom: 90px;
   right: 15px;
@@ -687,10 +687,9 @@ a.btn__general:hover {
   height: 40px;
   background: #009f4d;
   border-radius: 4px;
-}
-#movetop i{
   color: #fff;
 }
+
 
 
 /* ORGANIC */
