@@ -688,6 +688,8 @@ a.btn__general:hover {
   background: #009f4d;
   border-radius: 4px;
   color: #fff;
+  text-align: center;
+  line-height: 40px;
 }
 
 
