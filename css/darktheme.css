@@ -52,7 +52,12 @@
       background-color: #222222;
     }
   }
-
+  .dark ul.submenu {
+    background-color: #222222;
+  }
+  .dark ul.submenu li a{
+    color: #fdfffc;
+  }
   /* Hanh_Member */
   
   

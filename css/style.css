@@ -277,6 +277,9 @@ ul.submenu li a {
   font-weight: 600;
   color: #060606;
 }
+header nav.navbar ul.submenu li a.active{
+  color: #fb811e;
+}
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
