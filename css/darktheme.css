@@ -58,6 +58,10 @@
   .dark ul.submenu li a{
     color: #fdfffc;
   }
+  .dark .grow__right-item:hover{
+    transition: .3s;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+  }
   /* Hanh_Member */
   
   
