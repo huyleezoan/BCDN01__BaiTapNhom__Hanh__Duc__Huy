@@ -646,9 +646,9 @@
         </div>
     </footer>
 
-    <button onclick="backToTop" id="movetop">
-        <i class="fa fa-level-up"></i>
-    </button>
+  <a onclick="topFunction()" href="#" id="top">
+        <i class="fa fa-level-up-alt"></i>
+    </a>
 
     <!-- JQUERY  -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -668,6 +668,22 @@
                 document.getElementById("myBody").classList.toggle("dark")
             };
     </script>
+     <script>
+        var duration = 700;
+        window.onscroll = function () {
+            scrollFunction()
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("top").style.display = "block";
+            } else {
+                document.getElementById("top").style.display = "none";
+            }
+        }
+        function topFunction() {
+            $('body,html').animate({ scrollTop: 0 }, duration);
+        }
+    </script>                            
 </body>
 
 </html>
