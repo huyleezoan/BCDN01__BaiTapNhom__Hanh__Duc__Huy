@@ -62,6 +62,9 @@
     transition: .3s;
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
   }
+  .dark nav.navbar a.navbar__logo:hover {
+    color: #fdfffc;
+  }
   /* Hanh_Member */
   
   
