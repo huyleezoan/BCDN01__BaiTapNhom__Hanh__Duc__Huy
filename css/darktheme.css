@@ -30,14 +30,30 @@
   .dark .welcome__left h2{
     color: #0b0d0e;
   }
+  .dark .sticky ul#menu{
+    color: #fff;
+  }
+  .dark .grow__left h3{
+    color: #fdfffc;;
+  }
+  .dark .grow__left p {
+    color:#b7b7b7;
+  }
+  .dark .grow__right-item{
+    background-color:#222222;
+    box-shadow: 0 1rem 3rem rgb(23 19 19);
+  }
+  .dark .grow__right-item h4 a{
+    color: #fdfffc;
+  }
+  .dark .welcome__left-content{
+    background-color: #222222;
+  }
   /* Hanh_Member */
   
   
     /* Dark Theme*/
   
-    .dark#myBody{
-      background-color:#27282b;
-    }
     /* .dark #switchButton {
       background-color: black;
     } */

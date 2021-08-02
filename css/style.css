@@ -82,6 +82,9 @@ header nav.navbar a.navbar__logo {
   white-space: nowrap;
   font-family: 'Volkhov', sans-serif;
 }
+header nav.navbar a.navbar__logo:hover{
+  color: #060606;
+}
 header nav.navbar a.navbar__logo i {
   display: inline-block;
   position: absolute;
@@ -310,9 +313,7 @@ header.sticky {
   color: #000;
 }
 
-.dark#myBody .sticky ul#menu{
-  color: #fff;
-}
+
 
 @media only screen and (max-width: 991px) {
   header.header {
@@ -400,7 +401,7 @@ header.sticky {
   background-image: url(../img/b4.jpg);
 }
 #welcome__right-carousel .carousel-indicators {
-  bottom: 10px;
+  bottom: 27px;
 }
 #welcome__right-carousel ol.carousel-indicators li.active {
   background-color: #fb811e;
@@ -495,14 +496,10 @@ header.sticky {
     left: 0em;
     padding: 2em;
   }
-  .welcome__left__below {
-    padding-right: 2em;
-  }
-  .welcome__left-content {
+  .welcome__left-content{
     background: #f4f4f4;
     padding: 3em 2em 2em 4em;
     border-radius: 8px;
-    height: 70vh;
   }
 
 }
@@ -511,7 +508,6 @@ header.sticky {
     font-size: 28px;
     line-height: 38px;
   }
-
   .welcome__left h2 {
     font-size: 70px;
   }
@@ -519,30 +515,21 @@ header.sticky {
   .welcome__left__below p {
     font-size: 16px;
   }
-  .welcome__left-content {
-    height: 62vh;
-  }
-  /* .welcome__left-content {
-    height: 70vh;
-  } */
 }
 @media (max-width: 480px) {
-  .welcome__left__below {
+  /* .welcome__left__below {
     padding-right: 2em;
-  }
+  } */
   .welcome__left-content {
     padding: 2.5em 2em 2em 2.5em;
   }
-
   .welcome__left h2 {
     font-size: 60px;
   }
-
   .welcome h3 {
     font-size: 25px;
     line-height: 35px;
   }
-
   .welcome__left {
     padding: 1em;
   }
