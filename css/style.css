@@ -34,7 +34,7 @@ h6 {
   font-family: 'Volkhov', sans-serif;
   color: #060606;
   font-weight: 400;
-  line-height: 1.2;
+  /* line-height: 28px; */
   margin: 0;
   padding: 0;
 }
@@ -80,6 +80,7 @@ header nav.navbar a.navbar__logo {
   position: relative;
   line-height: inherit;
   white-space: nowrap;
+  font-family: 'Volkhov', sans-serif;
 }
 header nav.navbar a.navbar__logo i {
   display: inline-block;
@@ -339,24 +340,12 @@ header.sticky {
   left: 10em;
   z-index: 1;
 }
-.welcome__left-content {
-  position: relative;
-}
 .welcome__left h2 {
   color: #f4f4f4;
   font-size: 120px;
   font-weight: bold;
   margin-left: -0.5em;
   padding: 0;
-  position: absolute;
-  top: -222px;
-  position: absolute;
-  z-index: 1;
-}
-.welcome__left__below {
-  position: absolute;
-  z-index: 2;
-  top: -148px;
 }
 .welcome__left__below h3 {
   font-size: 50px;
@@ -464,9 +453,7 @@ header.sticky {
   .welcome__left h2 {
     font-size: 100px;
   }
-  .welcome__left-below {
-    top: 60%;
-  }
+  
 }
 @media (max-width: 1150px) {
   .welcome__left {
@@ -485,20 +472,7 @@ header.sticky {
   .welcome__left h2 {
     font-size: 90px;
   }
-  .welcome__left-content h2 {
-    top: -209px;
-  }
-  .welcome__left__below {
-    top: -140px;
-  }
-}
-@media (max-width: 1020px) {
-  .welcome__left-content h2 {
-    top: -231px;
-  }
-  .welcome__left__below {
-    top: -162px;
-  }
+ 
 }
 @media (max-width: 991px) {
   .welcome__left {
@@ -513,21 +487,9 @@ header.sticky {
   .welcome__left h2 {
     font-size: 80px;
   }
-  .welcome__left-content h2 {
-    top: -198px;
-  }
-  .welcome__left__below {
-    top: -136px;
-  }
+ 
 }
-@media (max-width: 935px) {
-  .welcome__left-content h2 {
-    top: -232px;
-  }
-  .welcome__left__below {
-    top: -168px;
-  }
-}
+
 @media (max-width: 768px) {
   .welcome__left {
     left: 0em;
@@ -542,12 +504,7 @@ header.sticky {
     border-radius: 8px;
     height: 70vh;
   }
-  .welcome__left-content h2 {
-    top: 13px;
-  }
-  .welcome__left__below {
-    top: 74px;
-  }
+
 }
 @media (max-width: 568px) {
   .welcome h3 {
@@ -565,15 +522,9 @@ header.sticky {
   .welcome__left-content {
     height: 62vh;
   }
-  .welcome__left-content h2 {
-    top: 25px;
-  }
-  .welcome__left__below {
-    top: 82px;
-  }
-  .welcome__left-content {
+  /* .welcome__left-content {
     height: 70vh;
-  }
+  } */
 }
 @media (max-width: 480px) {
   .welcome__left__below {
@@ -656,6 +607,7 @@ a.btn__general:hover {
   display: block;
   color: #060606;
   text-decoration: none;
+  font-family: 'Volkhov', sans-serif;
 }
 .grow__right-item:hover {
   transition: 0.3s;
