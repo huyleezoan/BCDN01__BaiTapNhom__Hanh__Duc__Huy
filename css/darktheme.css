@@ -65,6 +65,11 @@
   .dark nav.navbar a.navbar__logo:hover {
     color: #fdfffc;
   }
+  @media only screen and (max-width: 768px){
+    .dark .sticky nav.navbar a.navbar__logo{
+      color: #fb811e;
+    }
+  }
   /* Hanh_Member */
   
   
