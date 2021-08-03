@@ -915,6 +915,11 @@ a.btn__general:hover {
   transition: all 0.5s;
 }
 
+@media only screen and (max-width: 768px){
+  .Gallery__tittle h2{
+    font-size: 32px;
+  }
+}
 
 .Gallery .row .col-6,.Gallery .row .col-lg-3{
   padding: 0;
@@ -935,9 +940,11 @@ a.btn__general:hover {
   width: 80%;
   padding: 6px;
   margin: 20px 10%;
+
   text-align: center;
   color: white;
   font-weight: bold;
+  font-size: 20px;
   background-color: rgba(255, 255, 255, 27%);
   font-family: 'Volkhov', serif;
 }
