@@ -863,3 +863,279 @@ a.btn__general:hover {
     
 }
 
+/* GALLERY  */
+.Gallery__effect{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Gallery__tittle p:first-of-type{
+  margin: 0;
+  color: #fb811e;
+  font-size: 22px;
+}
+.Gallery__tittle h2{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #060606;
+}
+
+.Gallery__tittle button{
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  font-weight: 600;
+  color: white;
+  background: #fb811e;
+  border: none;
+  border-radius: 30px;
+}
+
+
+
+.Gallery .row .col-6,.Gallery .row .col-lg-3{
+  padding: 0;
+  margin: 0;
+}
+
+.Gallery__effect img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.Gallery__text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 80%;
+  padding: 6px;
+  margin: 20px 10%;
+
+
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 27%);
+}
+
+.Gallery__effect::before{
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  transform: skewX(-17deg) translateX(-130%) ;
+
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  opacity: 0;
+  
+  
+}
+
+.Gallery__effect:hover::before{
+  opacity: 1;
+  transform: skewX(-17deg) translateX(230%) ;
+  transition: all 1s;
+}
+
+/* CLIENTS  */
+.Clients{
+  background: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/bg1.jpg);
+  
+  background-size: cover;background-position: top;
+  
+  position: relative;
+}
+.Clients::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background: rgb(10 10 10 / 52%);
+}
+
+#portCarousel{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row__Clients{
+  padding: 15% 0;
+  color: white;
+}
+
+.Clients__avartar img{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+
+}
+
+.Clients__avartar{
+  text-align: center;
+}
+
+.Clients__avartar h2{
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin: 10px 0 5px;
+}
+
+.Clients__avartar p{
+  color: white;
+}
+
+.row__Clients span{
+  color: #fb811e;
+}
+.row__Clients .col-lg-9 p{
+  font-size: 1.4rem;
+
+}
+.row__Clients .Clients__text span, .row__Clients .Clients__text p{
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+#portCarousel .carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 6px;
+  
+}
+#portCarousel .carousel-indicators .active {
+  background-color: #fb811e;
+}
+
+/* FOOTER  */
+
+footer  p{
+  color: #707070;
+}
+
+footer h3{
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+footer .FooterContact:first-of-type a{
+  color: #707070;
+  transition: all 0.5s;
+  text-decoration: none
+}
+footer .FooterContact a:hover{
+  color: #fb811e;
+}
+
+
+footer .FooterLogo a{   
+  display: inline-block;
+  color: #fb811e;
+  position: relative;
+
+  font-family: 'Volkhov', serif;
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: 400;
+
+  transition: all .5s;
+}
+
+
+footer .FooterLogo a i{
+  position: absolute;
+  top: -12px;
+  left: 54px;
+
+  font-size: 20px;
+
+}
+
+footer .FooterLogo a:hover{
+  color: black;
+}
+
+
+footer .CopyRights a{
+  color: #009f4d;
+  text-decoration: none;
+
+  transition: all .5s;
+}
+
+footer .CopyRights a:hover{
+  color: #fb811e;
+}
+.subscribe input[type="email"] {
+  background: #f4f4f4;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  width: 80%;
+  color: #707070;
+  border-radius: 30px 0px 0px 30px;
+}
+.subscribe button {
+  background: #009f4d;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 20%;
+  color: #fff;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.social li{
+  display: inline-block;
+  margin-right: 5px;
+
+  list-style-type: none;
+}
+
+.social li a {
+  color: #009f4d;
+  width: 35px;
+  height: 35px;
+  background: rgb(10 191 83 / 8%);
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+
+  transition: all .5s;
+}
+
+.social li a i{
+  font-size: 15px;
+  line-height: 35px;
+  display:block;
+  
+}
+
+.social li a:hover{
+  color: #fb811e;
+  background: rgb(255 201 69 / 19%);
+  box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+}

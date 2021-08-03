@@ -121,4 +121,31 @@
     color: #b7b7b7;
   
   }
+    /* Gallery  */
+    .dark#myBody .Gallery__tittle h2{
+      color: white;
+    }
+    .dark#myBody .Gallery__tittle p:last-of-type{
+      color: #b7b7b7;
+    }
   
+    /* Footer  */
+    .dark#myBody footer h3{
+      color: white;
+    }
+    .dark#myBody footer p{
+      color: #b7b7b7;
+    }
+    .dark#myBody footer .FooterContact a{
+      color: #b7b7b7;
+    }
+    .dark#myBody footer .FooterContact a:hover{
+      color: #fb811e;
+    }
+    .dark#myBody footer .FooterLogo a:hover{
+      color: white;
+    }
+    .dark#myBody .subscribe input[type="email"]{
+      background: black;
+    }
+    
