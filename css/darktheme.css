@@ -109,6 +109,18 @@
       color: var(--secondary-color);
       transition: all 0.5s;
   }
+  .dark#myBody .farmlist-info p{
+    color: #b7b7b7;
+  }
+  /* Quality */
+  .dark#myBody .quality-left h3, 
+  .dark#myBody .quality-info h4{
+    color: #fff;
+  }
+  .dark#myBody .quality-left p{
+    color: #b7b7b7;
+    
+  }
   /* gallery */
   .dark#myBody .gallery__effect h3{
       color: #fff;
@@ -117,15 +129,6 @@
       color: #b7b7b7;
   }
   
-  /* Quality */
-  .dark#myBody .quality-left h3, 
-  .dark#myBody .quality-info h4{
-    color: #fff;
-  }
-  .dark#myBody .quality-left p{
-    color: #b7b7b7;
-  
-  }
     /* Gallery  */
     .dark#myBody .Gallery__tittle h2{
       color: white;
