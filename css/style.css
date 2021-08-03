@@ -865,6 +865,8 @@ a.btn__general:hover {
 
 /* GALLERY  */
 .Gallery__effect{
+  height: 100%;
+
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -970,9 +972,18 @@ a.btn__general:hover {
   margin: 0 auto;
 }
 
+#portCarousel .carousel-indicators li:hover{
+  background-color: #fb811e;
+  opacity: 1;
+}
+
 .row__Clients{
   padding: 15% 0;
   color: white;
+}
+
+.row__Clients .Clients__text p{
+  /* text-indent: 30px; */
 }
 
 .Clients__avartar img{
@@ -998,17 +1009,19 @@ a.btn__general:hover {
   color: white;
 }
 
-.row__Clients span{
-  color: #fb811e;
-}
+
 .row__Clients .col-lg-9 p{
   font-size: 1.4rem;
 
 }
-.row__Clients .Clients__text span, .row__Clients .Clients__text p{
+.row__Clients .Clients__text p{
   color: white;
   display: block;
   width: 100%;
+}
+
+.row__Clients .Clients__text span{
+  color: #fb811e;
 }
 
 #portCarousel .carousel-indicators li{
